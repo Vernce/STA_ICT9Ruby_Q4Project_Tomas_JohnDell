@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Johndell Tomas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .profile-section, .projects, .comments, .footer {
+            padding: 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .project-link {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Johndell Tomas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quarter1">First Quarter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quarter2">Second Quarter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quarter3">Third Quarter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quarter4">Fourth Quarter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#comments">Comments</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container profile-section" id="profile">
+        <div class="row">
+            <div class="col-md-3 text-center">
+                <img src="your_profile_picture.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="col-md-9">
+                <h2>Johndell Tomas</h2>
+                <p>Grade: 9 | Section: Ruby</p>
+                <p>This portfolio showcases the projects I have completed over the course of four quarters in ICT class. Each project demonstrates different skills and knowledge acquired throughout the school year.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container projects">
+        <h3>Projects</h3>
+        <div class="row">
+            <div class="col-md-3 project-link" id="quarter1">
+                <a href="STA_ICT9Ruby_Q1Project_Tomas_Johndell.html" class="btn btn-primary btn-block">First Quarter</a>
+            </div>
+
+            <div class="col-md-3 project-link" id="quarter2">
+                <a href="ICT9Ruby_Q2SW2_Tomas_Johndell.html" class="btn btn-primary btn-block">Second Quarter</a>
+                 <a href="ICT9SRuby_Q2PROJ_Tomas_JohnDell.html" class="btn btn-primary btn-block">Second Quarter</a>
+            </div>
+
+            <div class="col-md-3 project-link" id="quarter3">
+                <a href="ICT_Q3Exercise2.html" class="btn btn-primary btn-block">Third Quarter</a>
+                <a href="sta_ICT9ruby_Q3Sw1_Tomas_Johndell.html" class="btn btn-primary btn-block">Third Quarter</a>
+                <a href="Sta.ana_ICT9Ruby_Q3Sw2_Tomas_John-Dell.html" class="btn btn-primary btn-block">Third Quarter</a>
+                <a href="Sta.ana_ICT9Ruby_Q3Project_Tomas_John-Dell.html" class="btn btn-primary btn-block">Third Quarter</a>
+            </div>
+            
+            <div class="col-md-3 project-link" id="quarter4">
+                 <a href="Sta_ICT9Ruby_Q4SW2_Tomas_JohnDell.html" class="btn btn-primary btn-block">Fourth Quarter</a>
+                <a href="Sta_ICT9Ruby_Q4SW1_Tomas_JohnDell.html" class="btn btn-primary btn-block">Fourth Quarter</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container comments" id="comments">
+        <h3>Comments and Suggestions</h3>
+        <form>
+            <div class="form-group">
+                <label for="comment">Your Comment</label>
+                <textarea class="form-control" id="comment" rows="3" placeholder="Leave your comment here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Johndell Tomas | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
